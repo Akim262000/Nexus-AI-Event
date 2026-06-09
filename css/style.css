@@ -16,7 +16,7 @@
 }
 
 .bg-light-grey {
- background-color: #DEDEE0;
+  background-color: #dedee0;
 }
 
 .bg-linear-blue {
@@ -103,9 +103,25 @@
   margin-left: 20px;
 }
 
+.pb-150 {
+  padding-bottom: 150px;
+}
+
+.pt-140 {
+  padding-top: 140px;
+}
+
+.ps-90 {
+  padding-left: 90px;
+}
+
 .py-90 {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+.pe-75 {
+  padding-right: 75px;
 }
 
 .py-60 {
