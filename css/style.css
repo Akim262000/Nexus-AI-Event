@@ -1,9 +1,38 @@
 .body {
+  font-family: "Syne", sans-serif;
   background-color: black;
+}
+
+.bg-grey {
+  background-color: #1a1a1a;
+}
+
+.bg-linear-blue {
+  background: linear-gradient(
+    84.77deg,
+    #0147ff 1.59%,
+    rgba(1, 71, 255, 0) 121.45%
+  );
+}
+
+.font-100 {
+  font-size: 100px;
 }
 
 .font-25 {
   font-size: 25px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.mb-110 {
+  margin-bottom: 110px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }
 
 .mb-60 {
@@ -14,7 +43,9 @@
   margin-top: 40px;
 }
 
-
+.mb-30 {
+  margin-bottom: 30px;
+}
 
 .me-28 {
   margin-right: 28px;
@@ -24,9 +55,33 @@
   margin-right: 22px;
 }
 
+.ms-20 {
+  margin-left: 20px;
+}
+
+.py-90 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.px-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.px-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .px-32 {
   padding-left: 32px !important;
   padding-right: 32px !important;
+}
+
+.py-22 {
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
 
 .border-white {
@@ -35,4 +90,22 @@
 
 .br-100 {
   border-radius: 100px;
+}
+
+.br-50 {
+  border-radius: 50px;
+}
+
+.lh-30 {
+  line-height: 30px;
+}
+
+.about {
+  z-index: 999;
+}
+
+.about-img {
+  bottom: 18px;
+  right: 68px;
+  transform: rotate(75.75deg);
 }
