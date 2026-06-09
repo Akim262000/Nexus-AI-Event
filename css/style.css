@@ -27,8 +27,17 @@
   font-size: 22px;
 }
 
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+
 .mb-110 {
   margin-bottom: 110px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
 }
 
 .mb-80 {
