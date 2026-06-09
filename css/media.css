@@ -1,22 +1,22 @@
 @media (max-width: 1199px) {
-.me-28 {
-  margin-right: 0;
-}
+  .me-28 {
+    margin-right: 0;
+  }
 
-.me-22 {
-  margin-right: 0;
-}
+  .me-22 {
+    margin-right: 0;
+  }
 
-.px-32 {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  padding-top: 0;
-  padding-bottom: 0;
-}
+  .px-32 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
-.border-white {
-  border: none;
-}
+  .border-white {
+    border: none;
+  }
 
   .burger-menu {
     position: absolute;

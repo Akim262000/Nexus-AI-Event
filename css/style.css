@@ -28,6 +28,10 @@
   );
 }
 
+.bg-dark {
+  background-color: #1c1a1a !important;
+}
+
 .text-dark {
   color: #1c1a1a !important;
 }
@@ -53,6 +57,10 @@
   font-size: 20px;
 }
 
+.font-18 {
+  font-size: 18px;
+}
+
 /*margin & padding*/
 .mb-230 {
   margin-bottom: 230px;
@@ -60,6 +68,10 @@
 
 .mt-170 {
   margin-top: 170px;
+}
+
+.mb-166 {
+  margin-bottom: 166px;
 }
 
 .mb-150 {
@@ -172,6 +184,11 @@
   padding-right: 40px;
 }
 
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .pb-40 {
   padding-bottom: 40px;
 }
@@ -262,4 +279,33 @@
 
 .speaker-subtitle {
   height: 60px;
+}
+
+.why-card {
+  height: 289px;
+}
+
+.why-subtitle {
+  max-width: 220px;
+  width: 100%;
+}
+
+.why-img-one {
+  bottom: 0;
+  left: 22px;
+}
+
+.why-img-two {
+  bottom: 0;
+  left: 22px;
+}
+
+.why-img-three {
+  bottom: 0;
+  right: 22px;
+}
+
+.why-img-four {
+  bottom: 0;
+  right: 22px;
 }
