@@ -3,9 +3,9 @@
   background-color: black;
 }
 
-.container {
+/* .container {
   max-width: 1264px;
-}
+} */
 
 .bg-grey {
   background-color: #1a1a1a;
@@ -49,6 +49,10 @@
 
 .mt-170 {
   margin-top: 170px;
+}
+
+.mb-150 {
+  margin-bottom: 150px;
 }
 
 .mb-120 {
@@ -164,25 +168,25 @@
 }
 
 .speakers-one {
-  top: 0;
+  bottom: 0;
   left: 0;
   z-index: 1;
 }
 
 .speakers-two {
-  top: 0;
+  bottom: 0;
   left: 39px;
   z-index: 2;
 }
 
 .speakers-three {
-  top: 0;
+  bottom: 0;
   left: 78px;
   z-index: 3;
 }
 
 .speakers-four {
-  top: 0;
+  bottom: 0;
   left: 117px;
   z-index: 4;
 }
