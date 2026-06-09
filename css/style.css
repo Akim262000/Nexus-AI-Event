@@ -3,8 +3,20 @@
   background-color: black;
 }
 
+.container {
+  max-width: 1264px;
+}
+
 .bg-grey {
   background-color: #1a1a1a;
+}
+
+.bg-blue {
+  background-color: #0147ff;
+}
+
+.bg-light-grey {
+ background-color: #DEDEE0;
 }
 
 .bg-linear-blue {
@@ -19,6 +31,10 @@
   font-size: 100px;
 }
 
+.font-40 {
+  font-size: 40px;
+}
+
 .font-25 {
   font-size: 25px;
 }
@@ -27,10 +43,17 @@
   font-size: 22px;
 }
 
+.font-20 {
+  font-size: 20px;
+}
+
+.mt-170 {
+  margin-top: 170px;
+}
+
 .mb-120 {
   margin-bottom: 120px;
 }
-
 
 .mb-110 {
   margin-bottom: 110px;
@@ -48,8 +71,16 @@
   margin-bottom: 60px;
 }
 
+.ms-53 {
+  margin-left: 53px;
+}
+
 .mt-40 {
   margin-top: 40px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
 }
 
 .mb-30 {
@@ -71,6 +102,11 @@
 .py-90 {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .px-60 {
@@ -109,6 +145,14 @@
   line-height: 30px;
 }
 
+.lh-25 {
+  line-height: 25px;
+}
+
+.lh-20 {
+  line-height: 20px;
+}
+
 .about {
   z-index: 999;
 }
@@ -117,4 +161,28 @@
   bottom: 18px;
   right: 68px;
   transform: rotate(75.75deg);
+}
+
+.speakers-one {
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.speakers-two {
+  top: 0;
+  left: 39px;
+  z-index: 2;
+}
+
+.speakers-three {
+  top: 0;
+  left: 78px;
+  z-index: 3;
+}
+
+.speakers-four {
+  top: 0;
+  left: 117px;
+  z-index: 4;
 }
