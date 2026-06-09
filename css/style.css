@@ -1,0 +1,38 @@
+.body {
+  background-color: black;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+
+
+.me-28 {
+  margin-right: 28px;
+}
+
+.me-22 {
+  margin-right: 22px;
+}
+
+.px-32 {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
+
+.border-white {
+  border: 1px solid white;
+}
+
+.br-100 {
+  border-radius: 100px;
+}
