@@ -53,6 +53,10 @@
   color: #1c1a1a !important;
 }
 
+.text-light-grey {
+  color: #7e7e7e;
+}
+
 /*font-size*/
 .font-200 {
   font-size: 200px;
@@ -151,7 +155,6 @@
   margin-bottom: 55px;
 }
 
-
 .ms-53 {
   margin-left: 53px;
 }
@@ -176,12 +179,20 @@
   margin-bottom: 35px;
 }
 
+.mt-32 {
+  margin-top: 32px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
 
 .me-28 {
   margin-right: 28px;
+}
+
+.mb-27 {
+  margin-bottom: 27px;
 }
 
 .mb-25 {
@@ -203,6 +214,10 @@
 
 .ms-20 {
   margin-left: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
 }
 
 .ms-10 {
@@ -257,6 +272,10 @@
   padding-top: 70px;
 }
 
+.p-70 {
+  padding: 70px;
+}
+
 .pb-60 {
   padding-bottom: 60px;
 }
@@ -273,6 +292,11 @@
 .px-60 {
   padding-left: 60px;
   padding-right: 60px;
+}
+
+.px-52 {
+  padding-left: 52px;
+  padding-right: 52px;
 }
 
 .pt-50 {
@@ -495,9 +519,10 @@
   height: 494px;
 }
 
-.contact-form-input {
+.contact-form-input,
+.footer-form-input {
   background-color: transparent;
-  border-bottom: 1px solid #7E7E7E;
+  border-bottom: 1px solid #7e7e7e;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -511,4 +536,12 @@
   height: 50px;
   border-radius: 100px;
   background-color: #0147ff;
+}
+
+.footer-form-input {
+  border-bottom: 1px solid #fff;
+}
+
+#emailInputFooter::placeholder {
+  color: #fff;
 }
