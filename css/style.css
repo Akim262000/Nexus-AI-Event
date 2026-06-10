@@ -46,6 +46,10 @@
 }
 
 /*font-size*/
+.font-200 {
+  font-size: 200px;
+}
+
 .font-100 {
   font-size: 100px;
 }
@@ -101,6 +105,10 @@
 
 .mb-110 {
   margin-bottom: 110px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mb-90 {
@@ -168,6 +176,15 @@
   padding-top: 140px;
 }
 
+.px-96 {
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+.pt-95 {
+  padding-top: 95px;
+}
+
 .ps-90 {
   padding-left: 90px;
 }
@@ -175,6 +192,10 @@
 .py-90 {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
 }
 
 .pe-75 {
@@ -392,4 +413,12 @@
 
 .feedback-slider .slick-slide {
   margin: 0 10px;
+}
+
+.countdown {
+    font-variant-numeric: tabular-nums;
+}
+
+.register-img {
+  z-index: -1;
 }
