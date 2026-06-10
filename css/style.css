@@ -37,6 +37,14 @@
   );
 }
 
+.bg-linear-blue-light {
+  background: linear-gradient(
+    84.82deg,
+    #0147ff 15.74%,
+    rgba(1, 71, 255, 0) 204.53%
+  );
+}
+
 .bg-dark {
   background-color: #1c1a1a !important;
 }
@@ -85,6 +93,10 @@
 
 .mb-200 {
   margin-bottom: 200px;
+}
+
+.mb-180 {
+  margin-bottom: 180px;
 }
 
 .mt-170 {
@@ -143,6 +155,10 @@
   margin-top: 40px;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 .mb-35 {
   margin-bottom: 35px;
 }
@@ -153,6 +169,10 @@
 
 .me-28 {
   margin-right: 28px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
 }
 
 .my-22 {
@@ -166,6 +186,10 @@
 
 .ms-20 {
   margin-left: 20px;
+}
+
+.ms-10 {
+  margin-left: 10px;
 }
 
 .pb-150 {
@@ -205,6 +229,10 @@
 .py-70 {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.pt-70 {
+  padding-top: 70px;
 }
 
 .pb-60 {
@@ -416,9 +444,13 @@
 }
 
 .countdown {
-    font-variant-numeric: tabular-nums;
+  font-variant-numeric: tabular-nums;
 }
 
 .register-img {
   z-index: -1;
+}
+
+.ticket-card {
+  height: 494px;
 }
