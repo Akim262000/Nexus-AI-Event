@@ -1,12 +1,10 @@
-document
-  .querySelector(".navbar-toggler")
-  .addEventListener("click", function () {
-    this.classList.toggle("open");
-  });
+document.querySelector(".navbar-toggler").addEventListener("click", function () {
+  this.classList.toggle("open");
+});
 
 $(".feedback-slider").slick({
-    prevArrow: '.prev-arrow',
-  nextArrow: '.next-arrow',
+  prevArrow: ".prev-arrow",
+  nextArrow: ".next-arrow",
   slidesToShow: 3,
   slidesToScroll: 1,
   centerMode: true,
@@ -14,6 +12,15 @@ $(".feedback-slider").slick({
   infinite: true,
   arrows: true,
   autoplay: false,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 });
 
 const targetDate = new Date("2026-09-01T00:00:00").getTime();
@@ -33,9 +40,7 @@ function updateTimer() {
 
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
-  const hours = Math.floor(
-    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
-  );
+  const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
@@ -45,15 +50,9 @@ function updateTimer() {
 
   document.getElementById("hours").textContent = String(hours).padStart(2, "0");
 
-  document.getElementById("minutes").textContent = String(minutes).padStart(
-    2,
-    "0",
-  );
+  document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
 
-  document.getElementById("seconds").textContent = String(seconds).padStart(
-    2,
-    "0",
-  );
+  document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
 }
 
 updateTimer();
