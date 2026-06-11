@@ -1,4 +1,8 @@
 @media (max-width: 1199px) {
+  .font-100 {
+    font-size: 80px;
+  }
+
  .header .me-28 {
     margin-right: 0;
   }
