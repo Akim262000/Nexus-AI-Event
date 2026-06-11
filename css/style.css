@@ -21,28 +21,15 @@
 }
 
 .bg-linear-blue {
-  background: linear-gradient(
-    84.77deg,
-    #0147ff 1.59%,
-    rgba(1, 71, 255, 0) 121.45%
-  );
+  background: linear-gradient(84.77deg, #0147ff 1.59%, rgba(1, 71, 255, 0) 121.45%);
 }
 
 .bg-linear-grey {
-  background: linear-gradient(
-    90deg,
-    rgba(26, 26, 26, 0) 0%,
-    rgba(26, 26, 26, 0.538) 37.4%,
-    #1a1a1a 100%
-  );
+  background: linear-gradient(90deg, rgba(26, 26, 26, 0) 0%, rgba(26, 26, 26, 0.538) 37.4%, #1a1a1a 100%);
 }
 
 .bg-linear-blue-light {
-  background: linear-gradient(
-    84.82deg,
-    #0147ff 15.74%,
-    rgba(1, 71, 255, 0) 204.53%
-  );
+  background: linear-gradient(84.82deg, #0147ff 15.74%, rgba(1, 71, 255, 0) 204.53%);
 }
 
 .bg-dark {
@@ -439,6 +426,7 @@
 .why-subtitle {
   max-width: 220px;
   width: 100%;
+  z-index: 1;
 }
 
 .why-img-one {
@@ -461,9 +449,46 @@
   right: 22px;
 }
 
-.feedback-card {
+/* .feedback-slider .slick-slide {
+  margin: 0 10px;
+} */
+
+/* .feedback-card {
   width: 500px;
   height: 443px;
+} */
+
+.feedback-slider .slick-slide {
+  margin-left: -50px;
+  margin-right: -50px;
+  opacity: 0.4;
+  height: 443px;
+  transition: all 0.4s ease;
+}
+
+
+.feedback-slider .slick-slide {
+  visibility: hidden;
+}
+
+.feedback-slider .slick-slide.slick-active {
+  visibility: visible;
+  
+}
+
+.feedback-slider .slick-center {
+  opacity: 1;
+
+  z-index: 20;
+  position: relative;
+}
+
+.feedback-slider .slick-cloned {
+  display: none;
+}
+
+.feedback-slider {
+  overflow: visible;
 }
 
 .prev-arrow {
@@ -501,10 +526,6 @@
 
 .prev-arrow:hover {
   background-image: url(/images/arrow-left-blue.svg);
-}
-
-.feedback-slider .slick-slide {
-  margin: 0 10px;
 }
 
 .countdown {

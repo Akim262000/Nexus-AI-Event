@@ -5,11 +5,15 @@ document
   });
 
 $(".feedback-slider").slick({
+    prevArrow: '.prev-arrow',
+  nextArrow: '.next-arrow',
   slidesToShow: 3,
   slidesToScroll: 1,
+  centerMode: true,
+  centerPadding: "0px",
+  infinite: true,
+  arrows: true,
   autoplay: false,
-  autoplaySpeed: 2000,
-  variableWidth: false,
 });
 
 const targetDate = new Date("2026-09-01T00:00:00").getTime();
