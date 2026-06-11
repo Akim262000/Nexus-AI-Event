@@ -425,7 +425,7 @@
 }
 
 .filter-bw img {
-  height: 452px;
+  height: auto;
 }
 
 .speaker-subtitle {
@@ -529,14 +529,14 @@
   width: 100%;
 }
 
-.map-location {
+/* .map-location {
   top: 240px;
   left: 498px;
   width: 50px;
   height: 50px;
   border-radius: 100px;
   background-color: #0147ff;
-}
+} */
 
 .footer-form-input {
   border-bottom: 1px solid #fff;
@@ -545,3 +545,4 @@
 #emailInputFooter::placeholder {
   color: #fff;
 }
+

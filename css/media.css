@@ -1,31 +1,31 @@
 @media (max-width: 1199px) {
-  .me-28 {
+ .header .me-28 {
     margin-right: 0;
   }
 
-  .me-22 {
+ .header .me-22 {
     margin-right: 0;
   }
 
-  .px-32 {
+ .header .px-32 {
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-top: 0;
     padding-bottom: 0;
   }
 
-  .border-white {
+ .header .border-white {
     border: none;
   }
 
   .burger-menu {
     position: absolute;
-    top: 120px;
+    top: 70px;
     left: 0;
     background-color: rgb(0, 0, 0);
     width: 100%;
     padding: 24px;
-    border-top: 1px solid #ffffff;
+    /* border-top: 1px solid #ffffff; */
     border-bottom: 1px solid #ffffff;
     background-color: rgb(0, 0, 0);
     z-index: 9999;
@@ -99,5 +99,109 @@
   .navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
     transform: rotate(-45deg);
     top: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .font-100 {
+    font-size: 50px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .font-200 {
+    font-size: 50px;
+  }
+
+
+  .font-50 {
+    font-size: 40px;
+  }
+
+  .font-40 {
+    font-size: 24px;
+  }
+
+  .font-20 {
+    font-size: 16px;
+  }
+
+  .mb-150 {
+    margin-bottom: 50px;
+  }
+
+    .mb-110 {
+    margin-bottom: 40px;
+  }
+
+  .mb-90 {
+    margin-bottom: 45px;
+  }
+
+  .mb-80 {
+    margin-bottom: 40px;
+  }
+
+  .mb-35 {
+    margin-bottom: 16px;
+  }
+
+  .pb-150 {
+    padding-bottom: 24px;
+  }
+
+  .pt-140 {
+    padding-top: 36px;
+  }
+
+  .pt-95 {
+    padding-top: 24px;
+  }
+
+  .px-96 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .py-90 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .ps-90 {
+    padding-left: 16px;
+  }
+
+  .pb-80 {
+    padding-bottom: 24px;
+  }
+
+  .pe-75 {
+    padding-right: 16px;
+  }
+
+  .px-60 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .py-60 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .px-50 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+.lh-30 {
+  line-height: 20px;
+}
+
+  .about-img {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

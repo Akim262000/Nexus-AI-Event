@@ -35,7 +35,7 @@
     <title>Document</title>
   </head>
   <body class="body">
-    <header class="mt-40 mb-60">
+    <header class="header mt-40 mb-60">
       <nav class="navbar navbar-expand-xl navbar-light p-0">
         <div class="container d-flex flex-row justify-content-between">
           <a class="navbar-brand" href="#">
@@ -97,12 +97,16 @@
     </header>
 
     <div class="main container">
-      <section class="about bg-grey br-50 px-60 py-90 position-relative mb-90">
-        <div class="d-flex justify-content-between mb-80">
-          <span class="font-22 fw-bold text-white lh-30"
+      <section
+        class="about bg-grey br-50 px-60 py-90 position-relative mb-90 overflow-hidden"
+      >
+        <div
+          class="d-flex flex-column flex-xl-row justify-content-between mb-80"
+        >
+          <span class="font-22 fw-bold text-white lh-30 mb-3 mb-xl-0"
             >OCTOBER 15-17, 2026</span
           >
-          <p class="font-22 fw-bold text-white lh-30">
+          <p class="font-22 fw-bold text-white lh-30 mb-0">
             Horizon Convention Center, TechCity, Utopolis
           </p>
         </div>
@@ -131,25 +135,23 @@
       </section>
 
       <section class="services mb-120">
-        <div class="row">
-          <div
-            class="d-flex flex-row justify-content-center justify-content-lg-between"
-          >
-            <div class="col-auto">
-              <img src="/images/services-1.png" alt="" />
-            </div>
-            <div class="col-auto">
-              <img src="/images/services-2.png" alt="" />
-            </div>
-            <div class="col-auto">
-              <img src="/images/services-3.png" alt="" />
-            </div>
-            <div class="col-auto">
-              <img src="/images/services-4.png" alt="" />
-            </div>
-            <div class="col-auto">
-              <img src="/images/services-5.png" alt="" />
-            </div>
+        <div
+          class="row d-flex flex-row justify-content-center justify-content-lg-between"
+        >
+          <div class="col-auto">
+            <img src="/images/services-1.png" alt="" />
+          </div>
+          <div class="col-auto">
+            <img src="/images/services-2.png" alt="" />
+          </div>
+          <div class="col-auto">
+            <img src="/images/services-3.png" alt="" />
+          </div>
+          <div class="col-auto">
+            <img src="/images/services-4.png" alt="" />
+          </div>
+          <div class="col-auto">
+            <img src="/images/services-5.png" alt="" />
           </div>
         </div>
       </section>
@@ -158,9 +160,13 @@
         <div class="row align-items-stretch g-4">
           <div class="col-lg-5 d-flex">
             <div class="bg-blue br-50 px-50 py-60 w-100 d-flex flex-column">
-              <h3 class="font-40 fw-bold text-white mb-35">Speakers</h3>
+              <h3
+                class="font-40 fw-bold text-white mb-35 text-center text-md-start"
+              >
+                Speakers
+              </h3>
 
-              <div class="d-flex justify-content-between">
+              <div class="d-flex justify-content-between mb-2 mb-md-5">
                 <a href="">
                   <img src="/images/button-arrow.png" alt="" />
                 </a>
@@ -172,9 +178,11 @@
               </div>
 
               <div
-                class="d-flex justify-content-between align-items-end mt-auto"
+                class="d-flex justify-content-between align-items-end mt-2 mt-md-auto"
               >
-                <div class="position-relative speakers-images">
+                <div
+                  class="position-relative d-none d-md-block speakers-images"
+                >
                   <img
                     class="speakers-one position-absolute"
                     src="/images/speakers-1.png"
@@ -210,11 +218,15 @@
             </div>
           </div>
 
-          <div class="col-lg-7 d-flex">
+          <div class="col-12 col-lg-7 d-flex">
             <div class="row w-100 g-4">
               <div class="col-12 d-flex">
                 <div class="bg-blue br-50 px-50 py-60 w-100">
-                  <h3 class="font-40 fw-bold text-white mb-35">Technologies</h3>
+                  <h3
+                    class="font-40 fw-bold text-white mb-35 text-center text-md-start"
+                  >
+                    Technologies
+                  </h3>
 
                   <p class="font-20 fw-normal lh-30 text-white mb-0">
                     Explore advanced machine learning, natural language
@@ -226,7 +238,9 @@
 
               <div class="col-12 d-flex">
                 <div class="bg-light-grey br-50 px-50 py-60 w-100">
-                  <h3 class="font-40 fw-bold text-dark mb-35">
+                  <h3
+                    class="font-40 fw-bold text-dark mb-35 text-center text-md-start"
+                  >
                     Networking Opportunities
                   </h3>
 
@@ -242,11 +256,13 @@
       </section>
 
       <section id="agenda" class="agenda mb-150">
-        <div class="d-flex justify-content-between align-items-center mb-90">
+        <div
+          class="d-flex flex-column flex-xl-row justify-content-between align-items-center mb-90"
+        >
           <h2 class="font-100 fw-bold text-white text-uppercase mb-0">
             agenda
           </h2>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column mt-4 mt-xl-0">
             <p class="font-20 fw-normal text-white lh-30 mb-0">
               October 15-17, 2052 | Horizon
             </p>
@@ -258,18 +274,20 @@
         <div
           class="bg-grey br-50 ps-90 pe-75 pt-140 pb-150 position-relative overflow-hidden"
         >
-          <div class="row d-flex flex-row justify-content-between mb-150">
-            <div class="col-5 d-flex flex-column">
+          <div
+            class="row d-flex flex-column flex-md-row justify-content-md-between mb-150"
+          >
+            <div class="col-12 col-md-5 d-flex flex-column align-items-center align-items-md-start">
               <h4 class="font-40 fw-bold text-white mb-3">Day 1</h4>
               <span class="font-40 fw-bold text-white mb-3 lh-30 mb-0"
                 >09:00 - 19:00</span
               >
             </div>
-            <div class="col-7 d-flex flex-column">
+            <div class="col-12 col-md-7 d-flex flex-column align-items-center align-items-md-start">
               <h4 class="font-40 fw-bold text-white mb-30">
                 AI Innovations & Trends
               </h4>
-              <p class="font-20 fw-normal text-white lh-30">
+              <p class="font-20 fw-normal text-white text-center text-md-start lh-30 mb-0">
                 The summit kicks off with a keynote, expert panels, and
                 discussions on AI's impact, ethics, and automation. Hands-on
                 workshops and a networking event wrap up the day.
@@ -278,44 +296,44 @@
           </div>
 
           <div class="row d-flex flex-row justify-content-between mb-150">
-            <div class="col-5 d-flex flex-column">
-              <h4 class="font-40 fw-bold text-white mb-3">Day 1</h4>
+            <div class="col-12 col-md-5 d-flex flex-column align-items-center align-items-md-start">
+              <h4 class="font-40 fw-bold text-white mb-3">Day 2</h4>
               <span class="font-40 fw-bold text-white mb-3 lh-30 mb-0"
-                >09:00 - 19:00</span
+                >09:00 - 20:00</span
               >
             </div>
-            <div class="col-7 d-flex flex-column">
-              <h4 class="font-40 fw-bold text-white mb-30">
-                AI Innovations & Trends
+            <div class="col-12 col-md-7 d-flex flex-column align-items-center align-items-md-start">
+              <h4 class="font-40 fw-bold text-white text-center text-md-start mb-30">
+                AI Technologies & Applications
               </h4>
-              <p class="font-20 fw-normal text-white lh-30">
-                The summit kicks off with a keynote, expert panels, and
-                discussions on AI's impact, ethics, and automation. Hands-on
-                workshops and a networking event wrap up the day.
+              <p class="font-20 fw-normal text-white text-center text-md-start lh-30 mb-0">
+                Explore the latest in generative AI, robotics, and NLP, with
+                industry-led discussions and tech demos. A startup showcase and
+                investor insights highlight AI's business potential.
               </p>
             </div>
           </div>
 
           <div class="row d-flex flex-row justify-content-between">
-            <div class="col-5 d-flex flex-column">
-              <h4 class="font-40 fw-bold text-white mb-3">Day 1</h4>
+            <div class="col-12 col-md-5 d-flex flex-column align-items-center align-items-md-start">
+              <h4 class="font-40 fw-bold text-white mb-3">Day 3</h4>
               <span class="font-40 fw-bold text-white mb-3 lh-30 mb-0"
-                >09:00 - 19:00</span
+                >09:30 - 16:00</span
               >
             </div>
-            <div class="col-7 d-flex flex-column">
+            <div class="col-12 col-md-7 d-flex flex-column align-items-center align-items-md-start">
               <h4 class="font-40 fw-bold text-white mb-30">
-                AI Innovations & Trends
+                Future of AI & Networking
               </h4>
-              <p class="font-20 fw-normal text-white lh-30 mb-80">
-                The summit kicks off with a keynote, expert panels, and
-                discussions on AI's impact, ethics, and automation. Hands-on
-                workshops and a networking event wrap up the day.
+              <p class="font-20 fw-normal text-white text-center text-md-start lh-30 mb-80">
+                Dive into AI's long-term impact, attend expert-led workshops,
+                and watch the startup pitch competition. The event closes with a
+                visionary keynote and final networking sessions.
               </p>
               <a
                 href="#"
                 class="font-25 fw-medium text-white text-decoration-none py-22 w-100 bg-linear-blue text-center br-100"
-                >Early bird tickets
+                >View detailed schedule
                 <img class="ms-20" src="/images/arrow-white.svg" alt=""
               /></a>
               <img
@@ -327,7 +345,7 @@
             </div>
           </div>
           <img
-            class="position-absolute bottom-0 start-0"
+            class="position-absolute bottom-0 start-0 d-none d-md-block"
             src="/images/agenda.svg"
             alt=""
           />
@@ -335,11 +353,15 @@
       </section>
 
       <section id="speakers" class="keynote-speakers mb-150">
-        <div class="d-flex justify-content-between align-items-start mb-110">
-          <h2 class="font-100 fw-bold text-white text-uppercase mb-0">
+        <div
+          class="d-flex flex-column flex-xl-row justify-content-between align-items-center align-items-xl-start mb-110"
+        >
+          <h2
+            class="font-100 fw-bold text-white text-uppercase text-center text-xl-start mb-0"
+          >
             keynote speakers
           </h2>
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column mt-4 mt-xl-0">
             <p class="font-20 fw-normal text-white lh-30 mb-0">
               Meet&nbsp;the&nbsp;industry&nbsp;leaders
             </p>
@@ -351,7 +373,7 @@
         <div class="pb-60">
           <div class="row d-flex align-items-stretch gy-4">
             <!-- 1 -->
-            <div class="col-3 d-flex">
+            <div class="col-12 col-md-3 d-flex">
               <div
                 class="d-flex flex-column justify-content-between px-40 pt-50 pb-40 bg-light-grey br-50 w-100"
               >
@@ -364,13 +386,13 @@
                 </p>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3">
               <div class="filter-bw">
                 <img class="w-100" src="/images/keynote-1.png" alt="" />
               </div>
             </div>
             <!-- 2 -->
-            <div class="col-3 d-flex">
+            <div class="col-12 col-md-3 d-flex">
               <div
                 class="d-flex flex-column justify-content-between px-40 pt-50 pb-40 bg-light-grey br-50 w-100"
               >
@@ -380,18 +402,18 @@
                 </p>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3">
               <div class="filter-bw">
                 <img class="w-100" src="/images/keynote-2.png" alt="" />
               </div>
             </div>
             <!-- 3 -->
-            <div class="col-3">
+            <div class="col-12 col-md-3">
               <div class="filter-bw">
                 <img class="w-100" src="/images/keynote-3.png" alt="" />
               </div>
             </div>
-            <div class="col-3 d-flex">
+            <div class="col-12 col-md-3 d-flex">
               <div
                 class="d-flex flex-column justify-content-between px-40 pt-50 pb-40 bg-light-grey br-50 w-100"
               >
@@ -402,12 +424,12 @@
               </div>
             </div>
             <!-- 4 -->
-            <div class="col-3">
+            <div class="col-12 col-md-3">
               <div class="filter-bw">
                 <img class="w-100" src="/images/keynote-4.png" alt="" />
               </div>
             </div>
-            <div class="col-3 d-flex">
+            <div class="col-12 col-md-3 d-flex">
               <div
                 class="d-flex flex-column justify-content-between px-40 pt-50 pb-40 bg-light-grey br-50 w-100"
               >
@@ -439,11 +461,17 @@
       </section>
 
       <section class="why mb-166">
-        <div class="d-flex justify-content-between mb-110">
-          <h2 class="font-100 fw-bold text-white text-uppercase mb-0">
+        <div
+          class="d-flex flex-column flex-xl-row justify-content-between mb-110"
+        >
+          <h2
+            class="font-100 fw-bold text-white text-uppercase text-center text-xl-start mb-0"
+          >
             WHY&nbsp;ATTEND?
           </h2>
-          <div class="d-flex flex-column">
+          <div
+            class="d-flex flex-column align-items-center align-items-xl-start mt-4 mt-xl-0"
+          >
             <p class="font-20 fw-normal text-white lh-30 mb-0">
               Discover why Next-Gen AI
             </p>
@@ -459,7 +487,7 @@
           </div>
         </div>
         <div class="row gy-4">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div
               class="why-card d-flex flex-column justify-content-between bg-dark br-50 px-60 py-40 position-relative overflow-hidden"
             >
@@ -480,7 +508,7 @@
             </div>
           </div>
           <!-- 2 -->
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div
               class="why-card d-flex flex-column justify-content-between bg-dark br-50 px-60 py-40 position-relative overflow-hidden"
             >
@@ -501,7 +529,7 @@
             </div>
           </div>
           <!-- 3 -->
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div
               class="why-card d-flex flex-column justify-content-between align-items-end bg-dark br-50 px-60 py-40 position-relative overflow-hidden"
             >
@@ -522,7 +550,7 @@
             </div>
           </div>
           <!-- 4 -->
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div
               class="why-card d-flex flex-column justify-content-between align-items-end bg-dark br-50 px-60 py-40 position-relative overflow-hidden"
             >
@@ -547,11 +575,13 @@
 
       <section class="feedback container mb-200">
         <div
-          class="d-flex flex-row justify-content-between align-items-center mb-90"
+          class="d-flex flex-column flex-xl-row justify-content-between align-items-center mb-90"
         >
-          <h3 class="font-50 fw-bold text-white">What Past Attendees Say</h3>
+          <h3 class="font-50 fw-bold text-white text-center text-xl-start">
+            What Past Attendees Say
+          </h3>
 
-          <div class="feedback-slider-navigation d-flex flex-row">
+          <div class="feedback-slider-navigation d-flex flex-row mt-4 mt-xl-0">
             <button class="prev-arrow">
               <!-- <img
               src="/images/arrow-left.svg"
@@ -652,11 +682,17 @@
       </section>
 
       <section id="register" class="register mb-100">
-        <div class="d-flex justify-content-between mb-110">
-          <h2 class="font-100 fw-bold text-white text-uppercase mb-0">
+        <div
+          class="d-flex flex-column align-items-center align-items-xl-start flex-xl-row justify-content-between mb-110"
+        >
+          <h2
+            class="font-100 fw-bold text-white text-uppercase text-center text-xl-start mb-0"
+          >
             REGISTER<br />NOW
           </h2>
-          <div class="d-flex flex-column">
+          <div
+            class="d-flex align-items-center align-items-xl-start flex-column"
+          >
             <p class="font-20 fw-normal text-white lh-30 mb-0">
               Secure your spot at the Next-Gen
             </p>
@@ -672,10 +708,14 @@
           class="bg-grey pt-95 px-96 pb-80 br-50 position-relative overflow-hidden"
           style="z-index: 999"
         >
-          <p class="font-20 fw-normal text-white lh-30">
+          <p
+            class="font-20 fw-normal text-white lh-30 text-center text-md-start mb-0"
+          >
             Early Bird Pricing Ends In:
           </p>
-          <div class="countdown d-flex align-items-center">
+          <div
+            class="countdown d-flex align-items-center justify-content-center justify-content-md-start"
+          >
             <div class="d-flex flex-row align-items-center">
               <div class="d-flex flex-column align-items-center">
                 <div class="d-flex flex-row">
@@ -738,10 +778,12 @@
       </section>
 
       <section class="ticket mb-180">
-        <h3 class="font-50 fw-bold text-white mb-60">Ticket Options</h3>
-        <div class="row">
+        <h3 class="font-50 fw-bold text-white mb-60 text-center text-xl-start">
+          Ticket Options
+        </h3>
+        <div class="row gy-3 gy-lg-0">
           <!-- 1 -->
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <div
               class="ticket-card d-flex flex-column justify-content-between pt-70 pb-60 px-60 bg-blue br-50"
             >
@@ -767,7 +809,7 @@
             </div>
           </div>
           <!-- 2 -->
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <div
               class="ticket-card d-flex flex-column justify-content-between border-white pt-70 pb-60 px-60 br-50"
             >
@@ -790,7 +832,7 @@
             </div>
           </div>
           <!-- 3 -->
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <div
               class="ticket-card d-flex flex-column justify-content-between border-white pt-70 pb-60 px-60 br-50"
             >
@@ -820,7 +862,7 @@
 
       <section id="venue" class="contact px-50 py-90 bg-grey br-50 mb-100">
         <div class="row mb-90">
-          <div class="col-7">
+          <div class="col-12 col-lg-7">
             <div class="mb-104">
               <h3 class="font-50 fw-bold text-white mb-30">
                 We're Here To<br />
@@ -884,7 +926,7 @@
               </div>
             </div>
           </div>
-          <div id="faq" class="col-5">
+          <div id="faq" class="col-12 col-lg-5 mt-5 mt-lg-0">
             <div class="bg-light-grey br-50 px-60 py-75">
               <h4 class="font-26 fw-bold lh-30 text-dark text-uppercase mb-3">
                 get in touch
@@ -1035,7 +1077,9 @@
 
               <div class="mt-32">
                 <div class="">
-                  <span class="font-20 fw-normal text- lh-30 text-light-grey me-2">
+                  <span
+                    class="font-20 fw-normal text- lh-30 text-light-grey me-2"
+                  >
                     Frontend development:
                   </span>
                   <a
@@ -1046,7 +1090,9 @@
                   >
                 </div>
                 <div class="">
-                  <span class="font-20 fw-normal text- lh-30 text-light-grey mb-0 me-2">
+                  <span
+                    class="font-20 fw-normal text- lh-30 text-light-grey mb-0 me-2"
+                  >
                     Landing Page Design by:
                   </span>
                   <a
@@ -1056,9 +1102,7 @@
                     >Olga</a
                   >
                 </div>
-                <p
-                  class="font-20 fw-normal text- lh-30 text-light-grey mb-0"
-                >
+                <p class="font-20 fw-normal text- lh-30 text-light-grey mb-0">
                   © 2026 Next-Gen AI Summit. All rights reserved.
                 </p>
               </div>
