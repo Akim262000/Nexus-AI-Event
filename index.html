@@ -58,7 +58,7 @@
     </header>
 
     <div class="main container">
-      <section class="about bg-grey br-50 px-60 py-90 position-relative mb-90 overflow-hidden">
+      <section class="about d-flex flex-column justify-content-between bg-grey br-50 px-60 py-90 position-relative mb-90 overflow-hidden">
         <div class="d-flex flex-column flex-xl-row justify-content-between mb-80">
           <span class="font-22 fw-bold text-white lh-30 mb-3 mb-xl-0">OCTOBER 15-17, 2026</span>
           <p class="font-22 fw-bold text-white lh-30 mb-0">Horizon Convention Center, TechCity, Utopolis</p>
@@ -70,10 +70,10 @@
             of insights, discussions, and breakthroughs.
           </p>
         </div>
-        <a href="#" class="font-25 fw-medium text-white text-decoration-none py-22 px-50 bg-linear-blue br-100"
+        <a href="#" class="font-25 fw-medium text-white text-decoration-none py-22 px-50 bg-linear-blue br-100" style="width: fit-content"
           >Early bird tickets <img class="ms-20" src="/images/arrow-white.svg" alt=""
         /></a>
-        <img class="about-img position-absolute" style="z-index: -1" src="/images/about.svg" alt="" />
+        <img class="about-img position-absolute d-none d-md-block" style="z-index: -1" src="/images/about.svg" alt="" />
       </section>
 
       <section class="services mb-120">
@@ -112,15 +112,17 @@
                 </p>
               </div>
 
-              <div class="d-flex justify-content-between align-items-end mt-2 mt-md-auto">
-                <div class="position-relative d-none d-md-block speakers-images">
+              <div
+                class="d-flex flex-row flex-lg-column flex-xxl-row justify-content-center justify-content-md-between align-items-lg-center align-items-xxl-end mt-2 mt-md-auto"
+              >
+                <div class="speakers-block position-relative d-none d-md-block speakers-images mb-0 mb-lg-4 mb-xxl-0">
                   <img class="speakers-one position-absolute" src="/images/speakers-1.png" alt="" />
                   <img class="speakers-two position-absolute" src="/images/speakers-2.png" alt="" />
                   <img class="speakers-three position-absolute" src="/images/speakers-3.png" alt="" />
                   <img class="speakers-four position-absolute" src="/images/speakers-4.png" alt="" />
                 </div>
 
-                <div class="br-100 px-32 py-22 border-white">
+                <div class="link-btn br-100 px-32 py-22 border-white text-center">
                   <a class="font-25 fw-medium text-white text-decoration-none lh-25" href="">
                     And more
                     <img class="ms-20" src="/images/arrow-white.svg" alt="" />
@@ -284,12 +286,8 @@
             </div>
           </div>
         </div>
-
-        <div>
-          <a
-            href="#"
-            class="d-inline-flex align-items-center font-25 fw-medium text-white text-decoration-none px-50 py-22 bg-black border-white br-100"
-          >
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a href="#" class="link-btn text-center font-25 fw-medium text-white text-decoration-none px-50 py-22 bg-black border-white br-100">
             And more
             <img class="ms-20" width="17" src="/images/arrow-white.svg" alt="" />
           </a>
@@ -353,9 +351,9 @@
         </div>
       </section>
 
-      <section class="feedback container mb-200">
+      <section class="feedback mb-200">
         <div class="d-flex flex-column flex-xl-row justify-content-between align-items-center mb-90">
-          <h3 class="font-50 fw-bold text-white text-center text-xl-start">What Past Attendees Say</h3>
+          <h3 class="font-50 fw-bold text-white text-center text-xl-start mb-0">What Past Attendees Say</h3>
 
           <div class="feedback-slider-navigation d-flex flex-row mt-4 mt-xl-0">
             <button class="prev-arrow">
@@ -480,7 +478,7 @@
 
       <section id="register" class="register mb-100">
         <div class="d-flex flex-column align-items-center align-items-xl-start flex-xl-row justify-content-between mb-110">
-          <h2 class="font-100 fw-bold text-white text-uppercase text-center text-xl-start mb-0">REGISTER<br />NOW</h2>
+          <h2 class="font-100 fw-bold text-white text-uppercase text-center text-xl-start mb-3 mb-0">REGISTER NOW</h2>
           <div class="d-flex align-items-center align-items-xl-start flex-column">
             <p class="font-20 fw-normal text-white lh-30 mb-0">Secure your spot at the Next-Gen</p>
             <p class="font-20 fw-normal text-white lh-30 mb-0">AI Summit 2052 and join the</p>
@@ -533,15 +531,15 @@
 
       <section class="ticket mb-180">
         <h3 class="font-50 fw-bold text-white mb-60 text-center text-xl-start">Ticket Options</h3>
-        <div class="row gy-3 gy-lg-0">
+        <div class="row gy-3 gy-xl-0">
           <!-- 1 -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6 col-xl-4">
             <div class="ticket-card d-flex flex-column justify-content-between pt-70 pb-60 px-60 bg-blue br-50">
-              <div class="">
+              <div class="d-flex flex-column align-items-center align-items-xl-start">
                 <h4 class="font-26 fw-bold text-white lh-30 mb-25 text-uppercase">EARLY&nbsp;BIRD&nbsp;PASS</h4>
                 <p class="font-20 fw-normal text-white lh-30 mb-0">Limited time offer!</p>
               </div>
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column align-items-center align-items-xl-start">
                 <span class="font-50 fw-bold text-white mb-40">€299</span>
                 <a class="font-25 fw-medium text-dark bg-light-grey br-100 text-decoration-none text-center py-4 w-100" href=""
                   >Get your ticket <img class="ms-10" src="/images/arrow-black.svg" alt=""
@@ -550,12 +548,12 @@
             </div>
           </div>
           <!-- 2 -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6 col-xl-4">
             <div class="ticket-card d-flex flex-column justify-content-between border-white pt-70 pb-60 px-60 br-50">
-              <div class="">
+              <div class="d-flex flex-column align-items-center align-items-xl-start">
                 <h4 class="font-26 fw-bold text-white lh-30 mb-25 text-uppercase">STANDARD PASS</h4>
               </div>
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column align-items-center align-items-xl-start">
                 <span class="font-50 fw-bold text-white mb-40">€399</span>
                 <a class="font-25 fw-medium text-white bg-linear-blue-light br-100 text-decoration-none text-center py-4 w-100" href=""
                   >Get your ticket <img class="ms-10" src="/images/arrow-white.svg" alt=""
@@ -564,13 +562,13 @@
             </div>
           </div>
           <!-- 3 -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-6 col-xl-4">
             <div class="ticket-card d-flex flex-column justify-content-between border-white pt-70 pb-60 px-60 br-50">
-              <div class="">
+              <div class="d-flex flex-column align-items-center align-items-xl-start">
                 <h4 class="font-26 fw-bold text-white lh-30 mb-25 text-uppercase">VIP EXPERIENCE</h4>
                 <p class="font-20 fw-normal text-white lh-30 mb-0">Includes exclusive speaker meetups & front-row seating</p>
               </div>
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column align-items-center align-items-xl-start">
                 <span class="font-50 fw-bold text-white mb-40">€699</span>
                 <a class="font-25 fw-medium text-white bg-linear-blue-light br-100 text-decoration-none text-center py-4 w-100" href=""
                   >Get your ticket <img class="ms-10" src="/images/arrow-white.svg" alt=""
@@ -583,8 +581,8 @@
 
       <section id="venue" class="contact px-50 py-90 bg-grey br-50 mb-100">
         <div class="row mb-90">
-          <div class="col-12 col-lg-7">
-            <div class="mb-104">
+          <div class="col-12 col-xl-7">
+            <div class="d-flex flex-column align-items-center align-items-xl-start mb-104">
               <h3 class="font-50 fw-bold text-white mb-30">
                 We're Here To<br />
                 Connect And<br />
@@ -597,20 +595,20 @@
             </div>
             <div class="row gx-3">
               <div class="col-5">
-                <h4 class="font-26 fw-bold text-uppercase text-white lh-30 mb-20">Contact Us</h4>
-                <p class="font-20 fw-normal text-white lh-30 mb-0">+31 20 123 4567</p>
+                <h4 class="font-26 fw-bold text-uppercase text-white text-center text-xl-start lh-30 mb-20">Contact Us</h4>
+                <p class="font-20 fw-normal text-white text-center text-center text-xl-start lh-30 mb-0">+31 20 123 4567</p>
               </div>
               <div class="col-7 mb-55">
-                <h4 class="font-26 fw-bold text-uppercase text-white lh-30 mb-20">Event Location</h4>
-                <p class="font-20 fw-normal text-white lh-30 mb-0">Horizon Convention Center Amsterdam, Netherlands</p>
+                <h4 class="font-26 fw-bold text-uppercase text-white text-center text-xl-start lh-30 mb-20">Event Location</h4>
+                <p class="font-20 fw-normal text-white lh-30 text-center text-xl-start mb-0">Horizon Convention Center Amsterdam, Netherlands</p>
               </div>
               <div class="col-5">
-                <h4 class="font-26 fw-bold text-uppercase text-white lh-30 mb-20">email</h4>
-                <p class="font-20 fw-normal text-white lh-30 mb-0">info@nexus.com</p>
+                <h4 class="font-26 fw-bold text-uppercase text-white text-center text-xl-start lh-30 mb-20">email</h4>
+                <p class="font-20 fw-normal text-white text-center text-xl-start lh-30 mb-0">info@nexus.com</p>
               </div>
               <div class="col-7">
-                <h4 class="font-26 fw-bold text-uppercase text-white lh-30 mb-20">Follow Us</h4>
-                <div class="">
+                <h4 class="font-26 fw-bold text-uppercase text-white text-center text-xl-start lh-30 mb-20">Follow Us</h4>
+                <div class="text-center text-xl-start">
                   <a href=""><img src="/images/facebook.svg" alt="" /></a>
                   <a class="ms-20" href=""><img src="/images/in.svg" alt="" /></a>
                   <a class="ms-20" href=""><img src="/images/instagram.svg" alt="" /></a>
@@ -619,7 +617,7 @@
               </div>
             </div>
           </div>
-          <div id="faq" class="col-12 col-lg-5 mt-5 mt-lg-0">
+          <div id="faq" class="col-12 col-xl-5 mt-5 mt-xl-0">
             <div class="bg-light-grey br-50 px-60 py-75">
               <h4 class="font-26 fw-bold lh-30 text-dark text-uppercase mb-3">get in touch</h4>
               <p class="font-20 fw-normal lh-30 text-dark mb-0">Reach out with inquiries about tickets, partnerships, or event details.</p>
@@ -652,8 +650,11 @@
                     required
                   ></textarea> -->
                 </div>
-
-                <button type="submit" class="font-20 fw-medium text-white bg-linear-blue-light px-47 py-20 border-0 br-100">Send message</button>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="link-btn font-20 fw-medium text-white bg-linear-blue-light px-47 py-20 border-0 br-100">
+                    Send message
+                  </button>
+                </div>
               </form>
             </div>
           </div>
@@ -667,39 +668,39 @@
 
     <footer class="footer container mb-100">
       <div class="bg-light-grey br-50">
-        <div class="row">
-          <div class="col-6">
+        <div class="row d-flex flex-column flex-lg-row">
+          <div class="col-12 col-lg-6 order-2 order-lg-1">
             <div class="d-flex flex-column justify-content-between p-70">
-              <h3 class="font-30 fw-bold text-dark mb-40">Next-Gen AI Summit 2026</h3>
+              <h3 class="font-30 fw-bold text-center text-lg-start text-dark mb-40">Next-Gen AI Summit 2026</h3>
               <div class="row d-flex flex-row justify-content-between">
                 <div class="col-6">
                   <ul class="list-unstyled mb-0">
-                    <li class="mb-3">
+                    <li class="mb-3 text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#agenda">Agenda</a>
                     </li>
-                    <li class="mb-3">
+                    <li class="mb-3 text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#speakers">Speakers</a>
                     </li>
-                    <li class="mb-3">
+                    <li class="mb-3 text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#register">Register</a>
                     </li>
-                    <li class="mb-3">
+                    <li class="mb-3 text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#venue">Venue</a>
                     </li>
-                    <li class="">
+                    <li class="text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#faq">FAQ</a>
                     </li>
                   </ul>
                 </div>
                 <div class="col-6">
                   <ul class="list-unstyled mb-0">
-                    <li class="mb-3">
+                    <li class="mb-3 text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#faq">Terms & Conditions</a>
                     </li>
-                    <li class="mb-3">
+                    <li class="mb-3 text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#faq">Privacy Policy</a>
                     </li>
-                    <li class="">
+                    <li class="text-center text-lg-start">
                       <a class="font-20 fw-normal text-dark lh-30 text-decoration-none" href="#faq">Cookie Policy</a>
                     </li>
                   </ul>
@@ -707,7 +708,7 @@
               </div>
 
               <div class="mt-32">
-                <div class="">
+                <div class="d-flex justify-content-center justify-content-lg-start">
                   <span class="font-20 fw-normal text- lh-30 text-light-grey me-2"> Frontend development: </span>
                   <a
                     class="font-20 fw-normal text- lh-30 text-light-grey mb-0"
@@ -716,7 +717,7 @@
                     >Akim</a
                   >
                 </div>
-                <div class="">
+                <div class="d-flex justify-content-center justify-content-lg-start">
                   <span class="font-20 fw-normal text- lh-30 text-light-grey mb-0 me-2"> Landing Page Design by: </span>
                   <a
                     class="font-20 fw-normal text- lh-30 text-light-grey mb-0"
@@ -725,27 +726,39 @@
                     >Olga</a
                   >
                 </div>
-                <p class="font-20 fw-normal text- lh-30 text-light-grey mb-0">© 2026 Next-Gen AI Summit. All rights reserved.</p>
+                <p class="font-20 fw-normal text- lh-30 text-light-grey text-center text-lg-start mt-5 mb-0">
+                  © 2026 Next-Gen AI Summit. All rights reserved.
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-6 bg-blue br-50 p-70">
-            <h3 class="font-30 fw-bold text-white mb-10">Stay updated</h3>
-            <p class="font-20 fw-normal text-white lh-30">Subscribe for event updates & exclusive content.</p>
-            <form class="mt-40">
-              <div class="">
-                <input type="email" class="footer-form-input font-20 fw-normal lh-30 pb-10" id="emailInputFooter" placeholder="Email" required />
-              </div>
+          <div class="col-12 col-lg-6 order-1 order-lg-2">
+            <div class="bg-blue br-50 p-70 h-100">
+              <h3 class="font-30 fw-bold text-white mb-10 text-center text-lg-start">Stay updated</h3>
+              <p class="font-20 fw-normal text-white lh-30 text-center text-lg-start">Subscribe for event updates & exclusive content.</p>
+              <form class="mt-40">
+                <div class="">
+                  <input
+                    type="email"
+                    class="footer-form-input font-20 fw-normal lh-30 pb-10"
+                    id="emailInputFooter"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
 
-              <button type="submit" class="font-20 fw-medium text-dark bg-white px-52 py-20 border-0 br-100 mt-32">Stay updated</button>
-            </form>
-            <div class="mt-60">
-              <h4 class="font-26 fw-bold text-uppercase text-white lh-30 mb-27">Follow Us</h4>
-              <div class="">
-                <a href=""><img src="/images/facebook.svg" alt="" /></a>
-                <a class="ms-20" href=""><img src="/images/in.svg" alt="" /></a>
-                <a class="ms-20" href=""><img src="/images/instagram.svg" alt="" /></a>
-                <a class="ms-20" href=""><img src="/images/youtube.svg" alt="" /></a>
+                <button type="submit" class="link-btn font-20 fw-medium text-dark bg-white px-52 py-20 border-0 br-100 mt-32">
+                  Stay updated
+                </button>
+              </form>
+              <div class="d-flex flex-column align-items-center align-items-lg-start mt-60">
+                <h4 class="font-26 fw-bold text-uppercase text-white lh-30 mb-27">Follow Us</h4>
+                <div class="">
+                  <a href=""><img src="/images/facebook.svg" alt="" /></a>
+                  <a class="ms-20" href=""><img src="/images/in.svg" alt="" /></a>
+                  <a class="ms-20" href=""><img src="/images/instagram.svg" alt="" /></a>
+                  <a class="ms-20" href=""><img src="/images/youtube.svg" alt="" /></a>
+                </div>
               </div>
             </div>
           </div>

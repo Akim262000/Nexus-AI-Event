@@ -120,6 +120,17 @@
   .font-100 {
     font-size: 50px;
   }
+  .mb-200 {
+    margin-bottom: 100px;
+  }
+
+  .mb-180 {
+    margin-bottom: 90px;
+  }
+
+  .ticket-card {
+    height: auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -134,17 +145,34 @@
   .font-40 {
     font-size: 24px;
   }
-
+  .font-26 {
+    font-size: 18px;
+  }
   .font-20 {
     font-size: 16px;
+  }
+  .mb-200 {
+    margin-bottom: 70px;
+  }
+
+  .mb-180 {
+    margin-bottom: 60px;
   }
 
   .mb-150 {
     margin-bottom: 50px;
   }
 
+  .mb-120 {
+    margin-bottom: 60px;
+  }
+
   .mb-110 {
     margin-bottom: 40px;
+  }
+
+  .mb-100 {
+    margin-bottom: 50px;
   }
 
   .mb-90 {
@@ -156,6 +184,10 @@
   }
 
   .mb-75 {
+    margin-bottom: 30px;
+  }
+
+  .mb-60 {
     margin-bottom: 30px;
   }
 
@@ -242,6 +274,10 @@
     line-height: 20px;
   }
 
+  .link-btn {
+    width: 100%;
+  }
+
   .about-img {
     left: 50%;
     transform: translateX(-50%);
@@ -256,5 +292,33 @@
     margin-right: 0;
 
     height: 350px;
+  }
+
+  .next-arrow,
+  .prev-arrow {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .font-100 {
+    font-size: 34px;
+  }
+
+  .font-50 {
+    font-size: 30px;
+  }
+
+  .mb-100 {
+    margin-bottom: 40px;
+  }
+
+  .mb-90 {
+    margin-bottom: 28px;
+  }
+
+  .p-70 {
+    padding: 32px 16px;
   }
 }
