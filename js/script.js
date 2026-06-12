@@ -8,11 +8,19 @@ $(".feedback-slider").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   centerMode: true,
-  centerPadding: "0px",
+  centerPadding: "60px",
   infinite: true,
   arrows: true,
   autoplay: false,
+  adaptivWidth: false,
   responsive: [
+        {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
     {
       breakpoint: 767,
       settings: {
@@ -23,7 +31,7 @@ $(".feedback-slider").slick({
   ],
 });
 
-const targetDate = new Date("2026-09-01T00:00:00").getTime();
+const targetDate = new Date("2026-09-15T09:00:00").getTime();
 
 function updateTimer() {
   const now = new Date().getTime();

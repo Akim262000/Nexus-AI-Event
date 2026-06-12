@@ -358,6 +358,10 @@
   border-radius: 50px;
 }
 
+.br-50-blue {
+  border-radius: 50px;
+}
+
 /*line-height*/
 .lh-30 {
   line-height: 30px;
@@ -469,13 +473,27 @@
 .feedback-slider .slick-slide {
   margin-left: -50px;
   margin-right: -50px;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   height: 443px;
   transition: all 0.4s ease;
+  visibility: hidden;
+  position: relative;
 }
 
-.feedback-slider .slick-slide {
-  visibility: hidden;
+.feedback-slider .slick-slide::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, rgba(26, 26, 26, 0) 0%, rgba(26, 26, 26, 0.538) 37.4%, #1A1A1A 100%);
+
+  border-radius: 50px;
+}
+
+.feedback-slider .slick-center::before {
+  background: transparent;
 }
 
 .feedback-slider .slick-slide.slick-active {
@@ -556,6 +574,11 @@
   width: 100%;
 }
 
+.contact-form-input:focus {
+  outline: none;
+  box-shadow: none; /* если используется Bootstrap */
+}
+
 /* .map-location {
   top: 240px;
   left: 498px;
@@ -576,3 +599,8 @@
 /* .object-fit-cover {
   object-fit: cover;
 } */
+
+.footer-form-input:focus {
+  outline: none;
+  box-shadow: none; /* если используется Bootstrap */
+}
