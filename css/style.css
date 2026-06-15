@@ -516,7 +516,7 @@
 }
 
 .prev-arrow {
-  background-image: url(/images/arrow-left.svg);
+  background-image: url(./images/arrow-left.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: inherit;
@@ -528,7 +528,7 @@
 }
 
 .next-arrow {
-  background-image: url(/images/arrow-right.svg);
+  background-image: url(./images/arrow-right.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: inherit;
@@ -545,11 +545,11 @@
 }
 
 .next-arrow:hover {
-  background-image: url(/images/arrow-right-blue.svg);
+  background-image: url(./images/arrow-right-blue.svg);
 }
 
 .prev-arrow:hover {
-  background-image: url(/images/arrow-left-blue.svg);
+  background-image: url(./images/arrow-left-blue.svg);
 }
 
 .countdown {
